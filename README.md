@@ -1,5 +1,7 @@
 # ChatGPT-to-PDF
 
+> 🌐 This README is in English. [Click here for 中文说明 »](./README.zh.md)
+
 A Tampermonkey userscript that inserts a **Save as PDF** button into ChatGPT UI, redirecting copied messages to [paste2pdf.net](https://paste2pdf.net) for instant PDF conversion.
 
 ## ✅ Features
