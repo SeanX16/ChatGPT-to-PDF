@@ -11,7 +11,7 @@ Tampermonkey userscript that inserts a "Save as PDF" button into ChatGPT UI, whi
 ## 📦 Installation
 
 1. Install [Tampermonkey](https://www.tampermonkey.net/)
-2. Choose version
+2. Install [the latest version](./ChatGPT-to-PDF-button-latest.user.js)  of the script, or choose from: 
 
 | 版本 | 下载链接 | 描述 |
 |------|----------|------|
