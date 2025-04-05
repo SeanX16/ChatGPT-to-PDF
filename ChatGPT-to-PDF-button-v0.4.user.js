@@ -1,11 +1,16 @@
 // ==UserScript==
 // @name         ChatGPT-to-PDF button
-// @namespace    http://tampermonkey.net/
+// @namespace    https://github.com/SeanX16/ChatGPT-to-PDF
 // @version      0.4
+// @author       SeanX16
 // @description  使用 MutationObserver 监听 DOM 变化，只在需要时重插入按钮，避免定时轮询开销。
 // @match        https://chatgpt.com/*
+// @icon         https://chatgpt.com/favicon.ico
 // @grant        none
+// @downloadURL  https://raw.githubusercontent.com/SeanX16/ChatGPT-to-PDF/main/ChatGPT-to-PDF-button-v0.4.user.js
+// @updateURL    https://raw.githubusercontent.com/SeanX16/ChatGPT-to-PDF/main/ChatGPT-to-PDF-button-latest.user.js
 // ==/UserScript==
+
 
 (function() {
   'use strict';
