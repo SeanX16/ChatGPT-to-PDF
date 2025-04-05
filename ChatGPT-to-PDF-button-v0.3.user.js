@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         ChatGPT to PDF 自用
+// @name         ChatGPT-to-PDF button
 // @namespace    http://tampermonkey.net/
 // @version      0.3
 // @description  在“个人资料”按钮左侧插入“另存为PDF”按钮，点击后打开 paste2pdf.net。采用定时检测，页面重渲染时能自动重插入。
