@@ -24,4 +24,4 @@ Tampermonkey userscript that inserts a "Save as PDF" button into ChatGPT UI, whi
 
 ## 💡 Screenshot
 
-![screenshot](./screenshot2.png)
+![screenshot](./screenshot.png)
