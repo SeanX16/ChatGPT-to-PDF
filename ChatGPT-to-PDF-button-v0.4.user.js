@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         ChatGPT-to-PDF-button
+// @name         ChatGPT-to-PDF button
 // @namespace    http://tampermonkey.net/
 // @version      0.4
 // @description  使用 MutationObserver 监听 DOM 变化，只在需要时重插入按钮，避免定时轮询开销。
