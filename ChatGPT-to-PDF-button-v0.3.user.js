@@ -1,10 +1,14 @@
 // ==UserScript==
 // @name         ChatGPT-to-PDF button
-// @namespace    http://tampermonkey.net/
+// @namespace    https://github.com/SeanX16/ChatGPT-to-PDF
 // @version      0.3
+// @author       SeanX16
 // @description  在“个人资料”按钮左侧插入“另存为PDF”按钮，点击后打开 paste2pdf.net。采用定时检测，页面重渲染时能自动重插入。
 // @match        https://chatgpt.com/*
+// @icon         https://chatgpt.com/favicon.ico
 // @grant        none
+// @downloadURL  https://raw.githubusercontent.com/SeanX16/ChatGPT-to-PDF/main/ChatGPT-to-PDF-button-v0.3.user.js
+// @updateURL    https://raw.githubusercontent.com/SeanX16/ChatGPT-to-PDF/main/ChatGPT-to-PDF-button-latest.user.js
 // ==/UserScript==
 
 (function() {
