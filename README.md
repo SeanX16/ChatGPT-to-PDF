@@ -15,8 +15,8 @@ Tampermonkey userscript that inserts a "Save as PDF" button into ChatGPT UI, whi
 
 | 版本 | 下载链接 | 描述 |
 |------|----------|------|
-| v0.4 | [save-pdf-v0.4.user.js](./save-pdf-v0.4.user.js) | 使用 MutationObserver，零轮询，自动保持按钮 |
-| v0.3 | [save-pdf-v0.3.user.js](./save-pdf-v0.3.user.js) | 定时检测，每秒检查一次 DOM 重新插入按钮 |
+| v0.4 | [ChatGPT-to-PDF-button-v0.4.user.js](./ChatGPT-to-PDF-button-v0.4.user.js) | 使用 MutationObserver，零轮询，自动保持按钮 |
+| v0.3 | [ChatGPT-to-PDF-button-v0.3.user.js](./ChatGPT-to-PDF-button-v0.3.user.js) | 定时检测，每秒检查一次 DOM 重新插入按钮 |
 
 ## 🛠 使用方法
 
