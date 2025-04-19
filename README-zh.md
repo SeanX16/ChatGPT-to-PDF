@@ -18,6 +18,7 @@
 3. 或从以下历史版本中选择：
 
    所有版本更新记录与下载链接现已移至专门的版本更新日志页面：
+
    👉 [点击查看完整版本更新记录 »](https://github.com/SeanX16/ChatGPT-to-PDF/blob/main/versions/README.md)
 
 ## 🛠 使用方法
