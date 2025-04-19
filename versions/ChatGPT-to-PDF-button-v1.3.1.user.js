@@ -1,14 +1,14 @@
 // ==UserScript==
 // @name         ChatGPT-to-PDF Button
 // @namespace    https://github.com/SeanX16/ChatGPT-to-PDF
-// @version      1.2
+// @version      1.3.1
 // @author       SeanX16
 // @description  在 ChatGPT 插入“另存为PDF”按钮，并在新窗口打开 paste2pdf.net 后极速自动点击红色按钮
 // @match        https://chatgpt.com/*
 // @match        https://paste2pdf.net/*
 // @icon         https://chatgpt.com/favicon.ico
 // @grant        none
-// @downloadURL  https://raw.githubusercontent.com/SeanX16/ChatGPT-to-PDF/main/versions/ChatGPT-to-PDF-button-v1.2.user.js
+// @downloadURL  https://raw.githubusercontent.com/SeanX16/ChatGPT-to-PDF/main/versions/ChatGPT-to-PDF-button-v1.3.1.user.js
 // @updateURL    https://raw.githubusercontent.com/SeanX16/ChatGPT-to-PDF/main/ChatGPT-to-PDF-button-latest.user.js
 // ==/UserScript==
 
@@ -51,28 +51,31 @@
     }
 
     function ensurePdfButton() {
-      // 先拿到顶部那一行按钮的容器
+      // 获取那一排按钮的 container
       const toolbar = document.querySelector('div.flex.items-center.gap-2.pe-1.leading-\\[0\\]');
       if (!toolbar) return;
     
-      // 只在这个容器里找“显示项目详情”或“打开对话选项”
-      const detailBtn = toolbar.querySelector(
-        'button[aria-label="显示项目详情"], button[aria-label="打开对话选项"]'
+      // 优先：conversation‑options（固定 data-testid）
+      const convOptsBtn = toolbar.querySelector('button[data-testid="conversation-options-button"]');
+      // 其次：project‑details（中英文 aria-label）
+      const projDetailsBtn = toolbar.querySelector(
+        'button[aria-label="显示项目详情"], button[aria-label="Show project details"]'
       );
-      // 如果没找到，再退而求其次找“个人资料”
-      const profileBtn = detailBtn
-        ? detailBtn
-        : toolbar.querySelector('button[aria-label*="个人资料"]');
-      if (!profileBtn) return;
+      // 最后：profile menu（固定 data-testid）
+      const profileBtn = toolbar.querySelector('button[data-testid="profile-button"]');
+      // 决定插在哪个按钮前面
+      const anchor = convOptsBtn || projDetailsBtn || profileBtn;
+      if (!anchor) return;
     
-      // 看它前面是不是已经插过一次，不是的话就删旧的、插新的
-      const prev = profileBtn.previousElementSibling;
+      // 如果前面还没我们的按钮，就删旧的、插新的
+      const prev = anchor.previousElementSibling;
       if (!prev || prev.id !== 'my-pdf-button') {
         document.getElementById('my-pdf-button')?.remove();
         const btn = createPdfButton();
-        profileBtn.insertAdjacentElement('beforebegin', btn);
+        anchor.insertAdjacentElement('beforebegin', btn);
       }
     }
+    
 
     ensurePdfButton();
     new MutationObserver(ms => {
