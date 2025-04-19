@@ -14,16 +14,12 @@
 ## 📦 安装方式
 
 1. 安装 [Tampermonkey 插件](https://www.tampermonkey.net/)
-2. 推荐安装 [最新版脚本](https://raw.githubusercontent.com/SeanX16/ChatGPT-to-PDF/main/ChatGPT-to-PDF-button-latest.user.js)
+2. 一键安装 [最新版脚本](https://raw.githubusercontent.com/SeanX16/ChatGPT-to-PDF/main/ChatGPT-to-PDF-button-latest.user.js)
 3. 或从以下历史版本中选择：
 
-| 版本 | 下载链接 | 描述 |
-|------|----------|------|
-| v1.2 🆕 | [ChatGPT-to-PDF-button-v1.2.user.js](https://raw.githubusercontent.com/SeanX16/ChatGPT-to-PDF/main/versions/ChatGPT-to-PDF-button-v1.2.user.js) | 智能插入逻辑：若页面中存在“显示项目详情”或“打开对话选项”按钮，则插入到其前；否则插入到“个人资料”按钮前；避免在侧边栏误插 |
-| v1.1 | [ChatGPT-to-PDF-button-v1.1.user.js](https://raw.githubusercontent.com/SeanX16/ChatGPT-to-PDF/main/versions/ChatGPT-to-PDF-button-v1.1.user.js) | 新窗口打开 paste2pdf.net，极速自动点击红色按钮（立即尝试 + DOM 监听双保险） |
-| v1.0 | [ChatGPT-to-PDF-button-v1.0.user.js](https://raw.githubusercontent.com/SeanX16/ChatGPT-to-PDF/main/versions/ChatGPT-to-PDF-button-v1.0.user.js) | 新窗口打开 paste2pdf.net，并延时自动点击红色按钮（setTimeout 实现） |
-| v0.4 | [ChatGPT-to-PDF-button-v0.4.user.js](https://raw.githubusercontent.com/SeanX16/ChatGPT-to-PDF/main/versions/ChatGPT-to-PDF-button-v0.4.user.js) | 使用 MutationObserver，零轮询，自动保持按钮 |
-| v0.3 | [ChatGPT-to-PDF-button-v0.3.user.js](https://raw.githubusercontent.com/SeanX16/ChatGPT-to-PDF/main/versions/ChatGPT-to-PDF-button-v0.3.user.js) | 定时检测，每秒检查一次 DOM 重新插入按钮 |
+   所有版本更新记录与下载链接现已移至专门的版本更新日志页面：
+
+   👉 [点击查看完整版本更新记录 »](https://github.com/SeanX16/ChatGPT-to-PDF/blob/main/versions/README.md)
 
 ## 🛠 使用方法
 
