@@ -19,7 +19,7 @@ A Tampermonkey userscript that inserts a **Save as PDF** button into ChatGPT UI,
 
    All version history and download links are now maintained in a separate changelog file:
    
-   👉 [View Full Version Changelog »](https://github.com/SeanX16/ChatGPT-to-PDF/blob/main/versions/README.md)
+   👉 [View Full Version Changelog »](https://github.com/SeanX16/ChatGPT-to-PDF/blob/main/versions/README-en.md)
 
 ## 🛠 Usage
 
