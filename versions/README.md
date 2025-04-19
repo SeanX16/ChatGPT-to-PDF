@@ -1,5 +1,7 @@
 # 版本更新日志
 
+🌐 [English](./versions/README-en.md) | 中文
+
 ## 📌 [v1.3.4](https://github.com/SeanX16/ChatGPT-to-PDF/blob/main/versions/ChatGPT-to-PDF-button-v1.3.4.user.js)
 
 📅 2025-04-20
