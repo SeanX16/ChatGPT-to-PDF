@@ -3,7 +3,7 @@
 // @namespace    https://github.com/SeanX16/ChatGPT-to-PDF
 // @version      1.0
 // @author       SeanX16
-// @description  在 ChatGPT 页面插入“另存为PDF”按钮，点击后以新窗口打开 paste2pdf.net 等待1s后自动点击红色按钮（#one-click-btn）。使用 MutationObserver 保持按钮稳定。
+// @description  在 ChatGPT 页面插入“另存为PDF”按钮，点击后以新窗口打开 paste2pdf.net 等待1s后自动点击红色按钮。使用 MutationObserver 保持按钮稳定。
 // @match        https://chatgpt.com/*
 // @match        https://paste2pdf.net/*
 // @icon         https://chatgpt.com/favicon.ico

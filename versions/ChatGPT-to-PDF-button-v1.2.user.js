@@ -8,7 +8,7 @@
 // @match        https://paste2pdf.net/*
 // @icon         https://chatgpt.com/favicon.ico
 // @grant        none
-// @downloadURL  https://raw.githubusercontent.com/SeanX16/ChatGPT-to-PDF/main/ChatGPT-to-PDF-button-latest.user.js
+// @downloadURL  https://raw.githubusercontent.com/SeanX16/ChatGPT-to-PDF/main/versions/ChatGPT-to-PDF-button-v1.2.user.js
 // @updateURL    https://raw.githubusercontent.com/SeanX16/ChatGPT-to-PDF/main/ChatGPT-to-PDF-button-latest.user.js
 // ==/UserScript==
 
