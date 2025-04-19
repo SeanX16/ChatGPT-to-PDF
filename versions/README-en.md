@@ -1,6 +1,6 @@
 # Version Changelog
 
-🌐 English | [中文](./versions/README.md)
+🌐 English | [中文](./README.md)
 
 ## 📌 [v1.3.4](https://github.com/SeanX16/ChatGPT-to-PDF/blob/main/versions/ChatGPT-to-PDF-button-v1.3.4.user.js)
 
