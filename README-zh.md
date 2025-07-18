@@ -32,3 +32,8 @@
 ## 🖼 截图
 
 ![screenshot](./screenshot-v2.png)
+
+## 许可证
+
+本项目采用 [MIT 许可证](LICENSE) 开源。  
+您可以自由使用、修改和分发，但请保留原作者署名。
