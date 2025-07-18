@@ -32,3 +32,8 @@ A Tampermonkey userscript that inserts a **Save as PDF** button into ChatGPT UI,
 ## 🖼 Screenshot
 
 ![screenshot](./screenshot-v2.png)
+
+## 📝 License
+
+This project is licensed under the [MIT License](LICENSE).  
+Feel free to use, modify, and distribute it with proper attribution.
